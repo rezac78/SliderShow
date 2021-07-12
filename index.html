@@ -1,0 +1,70 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usercode | Js | 53</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="slide-container">
+      <div class="slide-no" id="slideNo"></div>
+      <div class="slide fade">
+        <img
+          src="01.jpg"
+          alt="image-1"
+          style="width: 100%"
+        />
+        <div class="caption">Plane one</div>
+      </div>
+
+      <div class="slide fade">
+        <img
+          src="02.jpg"
+          alt="image-1"
+          style="width: 100%"
+        />
+        <div class="caption">Plane two</div>
+      </div>
+
+      <div class="slide fade">
+        <img
+          src="03.jpg"
+          alt="image-1"
+          style="width: 100%"
+        />
+        <div class="caption">Plane three</div>
+      </div>
+
+      <div class="slide fade">
+        <img
+          src="04.jpg"
+          alt="image-1"
+          style="width: 100%"
+        />
+        <div class="caption">Plane four</div>
+      </div>
+
+      <div class="slide fade">
+        <img
+          src="05.jpg"
+          alt="image-1"
+          style="width: 100%"
+        />
+        <div class="caption">Plane five</div>
+      </div>
+
+      <a class="prev" onclick="displaySlide((currentIndex - 1))">&#10094;</a>
+      <a class="next" onclick="displaySlide((currentIndex + 1))">&#10095;</a>
+    </div>
+    <br />
+    <div style="text-align: center">
+      <span class="dot" onclick="displaySlide(1)"></span>
+      <span class="dot" onclick="displaySlide(2)"></span>
+      <span class="dot" onclick="displaySlide(3)"></span>
+      <span class="dot" onclick="displaySlide(4)"></span>
+      <span class="dot" onclick="displaySlide(5)"></span>
+    </div>
+
+    <script src="script2.js"></script>
+  </body>
+</html>
